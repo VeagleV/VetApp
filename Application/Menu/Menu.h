@@ -19,7 +19,7 @@ class Menu
     int getSelect();
     
     private:
-    
+
     bool isRunning = false;
     int select;
     int itemQuantity{5};
