@@ -22,5 +22,3 @@ string Vet::getDepartment(){ return department; };
 
 
 int Vet::getExperience() { return experience; };
-
-int Vet::getDoneServiceQuantity() { return doneServiceQuantity; }; 

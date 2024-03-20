@@ -23,9 +23,8 @@ class Vet
     string initials;
     string fullName;
     string description;
-    string department;
+    string department;  
 
     int experience;
-    int doneServiceQuantity; 
 
 };
