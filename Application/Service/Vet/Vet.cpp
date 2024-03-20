@@ -1,12 +1,11 @@
 #include "./Vet.h"
 
 
-Vet::Vet(string initials, string fullName, int age, int experience, string description)
+Vet::Vet(string initials, string fullName, int experience, string description)
 {
 
     this->initials = initials;
     this->fullName = fullName;
-    this->age = age;
     this->experience = experience;
     this->description = description; 
 

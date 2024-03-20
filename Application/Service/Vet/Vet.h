@@ -8,7 +8,7 @@ class Vet
 
     public:
 
-    Vet(string, string, int, int, string);
+    Vet(string, string, int, string);
 
     string getInitials();
     string getFullName();
@@ -26,7 +26,6 @@ class Vet
     string description;
     string department;
 
-    int age;
     int experience;
     int doneServiceQuantity; 
 
