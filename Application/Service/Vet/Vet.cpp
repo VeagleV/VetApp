@@ -20,7 +20,6 @@ string Vet::getDescription(){ return description; };
 string Vet::getDepartment(){ return department; };
 
 
-int Vet::getAge(){ return age; };
 
 int Vet::getExperience() { return experience; };
 

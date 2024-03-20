@@ -15,7 +15,6 @@ class Vet
     string getDescription();
     string getDepartment();
 
-    int getAge();
     int getExperience();
     int getDoneServiceQuantity();
 
