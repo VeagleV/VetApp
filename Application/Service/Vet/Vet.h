@@ -1,31 +1,36 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include <vector>
+#include "./Vet/Vet.h"
 using namespace std;
 
-class Vet
-{
 
+class Service
+{
     public:
 
-    Vet(string, string, int, string);
+    Service(int, string, int, int, vector<Vet>, string, string);
 
-    string getInitials();
-    string getFullName();
+    string getName();
     string getDescription();
-    string getDepartment();
 
-    int getExperience();
-    int getDoneServiceQuantity();
+    int getPrice();
+    int getId();
+    int getDoneServices();
 
+    
     private:
 
-    string initials;
-    string fullName;
-    string description;
+    string name;
     string department;
+    string description;
 
-    int experience;
-    int doneServiceQuantity; 
+    int price;
+    int id;
+    int doneServices;
+
+    vector<Vet> approvedVets;
+
 
 };
