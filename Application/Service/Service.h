@@ -10,19 +10,25 @@ class Service
 {
     public:
 
-    Service(string, int,vector<Vet>, string);
+    Service(int, string, int, int, vector<Vet>, string, string);
 
     string getName();
     string getDescription();
 
     int getPrice();
+    int getId();
+    int getDoneServices();
+
     
     private:
 
     string name;
+    string department;
     string description;
 
     int price;
+    int id;
+    int doneServices;
 
     vector<Vet> approvedVets;
 
