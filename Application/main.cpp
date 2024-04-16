@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "./Menu/Menu.h"
-#include "./Menu/MenuItem/MenuItem.h"
-#include "./Service/Service.h"
-#include "./Service/Vet/Vet.h"
+#include "./src/Menu/Menu.h"
+#include "./src/MenuItem/MenuItem.h"
+#include "./src/Service/Service.h"
+#include "./src/Vet/Vet.h"
 
 using namespace std;
 

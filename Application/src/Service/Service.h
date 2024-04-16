@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "./Vet/Vet.h"
+#include "../Vet/Vet.h"
 using namespace std;
 
 

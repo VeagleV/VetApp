@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include "./MenuItem/MenuItem.h"
+#include "../MenuItem/MenuItem.h"
 using namespace std;
 
 class Menu
