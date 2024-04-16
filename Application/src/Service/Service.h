@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <iomanip>
 #include "../Vet/Vet.h"
 using namespace std;
 
@@ -10,7 +11,7 @@ class Service
 {
     public:
 
-    Service(int, string, int, int, vector<Vet>, string, string);
+    Service(int, string,string,string, int, int, vector<Vet> );
 
     string getName();
     string getDescription();
@@ -19,6 +20,7 @@ class Service
     int getId();
     int getDoneServices();
 
+    void printService();
     
     private:
 

@@ -1,16 +1,16 @@
 #include "./Service.h"
 #include "../Vet/Vet.h"
 
-
-Service::Service(int id, string name, int doneServices, int price, vector<Vet> approvedVets,string department, string description)
+//департ.номер. 
+Service::Service(int id, string department,string name,string description, int doneServices, int price, vector<Vet> approvedVets)
 {
     this->id = id;
+    this->department = department;
     this->name = name;
+    this->description = description;
     this->doneServices = doneServices;
     this->price = price;
     this->approvedVets = approvedVets;
-    this->department = department;
-    this->description = description;
 }
 
 
@@ -23,3 +23,14 @@ int Service::getPrice(){ return price; }
 int Service::getId(){ return id; }
 
 int Service::getDoneServices(){ return doneServices; }
+
+void Service::printService()
+{
+
+    cout <<id          << "   ";
+    cout <<department  << "   "; 
+    cout <<name        << "   "; 
+    cout <<description << "   ";
+    cout <<doneServices<< "   ";
+    cout <<price       << "   " << endl;
+}
