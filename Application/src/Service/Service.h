@@ -34,7 +34,5 @@ class Service
 
     vector<Vet> approvedVets;
 
-    vector<Service> vulvas;
-
 
 };
