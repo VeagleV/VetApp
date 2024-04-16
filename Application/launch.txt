@@ -1,0 +1,1 @@
+g++ ./main.cpp ./src/Menu/Menu.cpp ./src/MenuItem/MenuItem.cpp ./src/Service/Service.cpp ./src/Vet/Vet.cpp

@@ -1,4 +1,4 @@
-#include "./Menuitem.h"
+#include "../MenuItem/Menuitem.h"
 
 
 MenuItem::MenuItem(string title,itemFunc func) : title(title),  func(func) {};

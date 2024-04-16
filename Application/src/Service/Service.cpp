@@ -1,5 +1,5 @@
 #include "./Service.h"
-#include "./Vet/Vet.h"
+#include "../Vet/Vet.h"
 
 
 Service::Service(int id, string name, int doneServices, int price, vector<Vet> approvedVets,string department, string description)
