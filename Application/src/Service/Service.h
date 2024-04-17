@@ -15,6 +15,7 @@ class Service
     Service();
 
     string getName();
+    string getDepartment();
     string getDescription();
     string getDepartment();
 
@@ -37,6 +38,5 @@ class Service
     int doneServices;
 
     vector<Vet> approvedVets;
-
 
 };
