@@ -12,15 +12,19 @@ class Service
     public:
 
     Service(int, string,string,string, int, int, vector<Vet> );
+    Service();
 
     string getName();
     string getDescription();
+    string getDepartment();
 
     int getPrice();
     int getId();
     int getDoneServices();
 
     void printService();
+
+    vector<Vet> getApprovedVets();
     
     private:
 

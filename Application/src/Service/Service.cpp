@@ -13,10 +13,13 @@ Service::Service(int id, string department,string name,string description, int d
     this->approvedVets = approvedVets;
 }
 
+Service::Service(){};
 
 string Service::getName(){ return name; }
 
 string Service::getDescription() { return description; }
+
+string Service::getDepartment() { return department; }
 
 int Service::getPrice(){ return price; }
 
@@ -24,6 +27,7 @@ int Service::getId(){ return id; }
 
 int Service::getDoneServices(){ return doneServices; }
 
+vector<Vet> Service::getApprovedVets() { return approvedVets; }
 void Service::printService()
 {
 
@@ -34,3 +38,4 @@ void Service::printService()
     cout <<doneServices<< "   ";
     cout <<price       << "   " << endl;
 }
+
