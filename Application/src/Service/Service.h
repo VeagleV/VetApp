@@ -14,6 +14,7 @@ class Service
     Service(int, string,string,string, int, int, vector<Vet> );
 
     string getName();
+    string getDepartment();
     string getDescription();
 
     int getPrice();
@@ -21,6 +22,7 @@ class Service
     int getDoneServices();
 
     void printService();
+
     
     private:
 
@@ -33,6 +35,5 @@ class Service
     int doneServices;
 
     vector<Vet> approvedVets;
-
 
 };

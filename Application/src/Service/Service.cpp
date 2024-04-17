@@ -16,6 +16,8 @@ Service::Service(int id, string department,string name,string description, int d
 
 string Service::getName(){ return name; }
 
+string Service::getDepartment(){ return department; }
+
 string Service::getDescription() { return description; }
 
 int Service::getPrice(){ return price; }
@@ -26,11 +28,11 @@ int Service::getDoneServices(){ return doneServices; }
 
 void Service::printService()
 {
-
     cout <<id          << "   ";
     cout <<department  << "   "; 
     cout <<name        << "   "; 
     cout <<description << "   ";
     cout <<doneServices<< "   ";
-    cout <<price       << "   " << endl;
+    cout <<price       << "   ";
+    cout <<approvedVets[0].getInitials()<< ", " << approvedVets[1].getInitials() << endl;
 }
