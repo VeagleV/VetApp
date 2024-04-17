@@ -15,7 +15,10 @@ int f1() {
 
     vector<Vet> fill{};
     
-    vector<Service> vector {
+    
+    
+    
+    vector<Service> vector1 {
         Service(11,"Хирургия","Кастрация","искусственное прекращение функции половых желез",322,3500,fill),
         Service(12,"Хирургия","Стерилизация","удаление половых органов",169,3900,fill),
         Service(13,"Хирургия","Обработка ран","Обработка ран от инфекций",121,1000,fill),
@@ -31,9 +34,8 @@ int f1() {
     };
 
     //SaveFile("./bin/DataBase.bin", vector);
-
-    vector.erase(vector.begin(), vector.begin()+6);
-    auto temp = ReadFile("./bin/DataBase.bin");
+    vector<Service> temp = ReadFile1("./bin/DataBase.bin");
+    vector1.erase(vector1.begin(), vector1.begin()+6);
     for(int i = 0; i < temp.size(); i++)
     {
         temp[i].printService();
@@ -43,7 +45,6 @@ int f1() {
 
 int f2() {
     
-
     return 2;
 }
 
@@ -64,7 +65,8 @@ int f5() {
 }
 
 int f6() {
-    
+
+    vector<Vet> fill{};
     vector<Service> vector {
         Service(11,"Хирургия","Кастрация","искусственное прекращение функции половых желез",322,3500,fill),
         Service(12,"Хирургия","Стерилизация","удаление половых органов",169,3900,fill),

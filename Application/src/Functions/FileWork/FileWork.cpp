@@ -1,6 +1,6 @@
 #include "./FileWork.h"
 #include <algorithm>
-vector<Service>  ReadFile(string filename)
+vector<Service>  ReadFile1(string filename)
 {
     ifstream file(filename, ios::binary);
 
@@ -25,12 +25,12 @@ vector<Service>  ReadFile(string filename)
 void SaveFile( string filename, vector<Service>& services)
 {
     ofstream file(filename, ios::binary);
-
+    cout << "1Saving...";
     if (!file.is_open())
     {
         throw runtime_error("Ошибка открытия файла: " + filename);
     }
-
+    cout << "2Saving...";
     for(Service& service : services)
     {
         file.write(reinterpret_cast<char*>(&service),sizeof(service));
