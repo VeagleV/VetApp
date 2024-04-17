@@ -33,7 +33,7 @@ int f1() {
         Service(34,"Косметика","Стрижка когтей","процедура усечения когтей",756,600,fill),
     };
 
-    //SaveFile("./bin/DataBase.bin", vector);
+    //SaveFile("./bin/DataBase.bin", vector1);
     vector<Service> temp = ReadFile1("./bin/DataBase.bin");
     vector1.erase(vector1.begin(), vector1.begin()+6);
     for(int i = 0; i < temp.size(); i++)
