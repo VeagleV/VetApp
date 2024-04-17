@@ -17,7 +17,6 @@ class Service
     string getName();
     string getDepartment();
     string getDescription();
-    string getDepartment();
 
     int getPrice();
     int getId();

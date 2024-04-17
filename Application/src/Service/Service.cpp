@@ -21,7 +21,6 @@ string Service::getDepartment(){ return department; }
 
 string Service::getDescription() { return description; }
 
-string Service::getDepartment() { return department; }
 
 int Service::getPrice(){ return price; }
 

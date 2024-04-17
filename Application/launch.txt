@@ -1,1 +1,1 @@
-g++ ./main.cpp ./src/Menu/Menu.cpp ./src/MenuItem/MenuItem.cpp ./src/Service/Service.cpp ./src/Vet/Vet.cpp
+g++ ./main.cpp ./src/Menu/Menu.cpp ./src/MenuItem/MenuItem.cpp ./src/Service/Service.cpp ./src/Vet/Vet.cpp ./src/Functions/FileWork/FileWork.cpp ./src/Functions/Search/Search.cpp ./src/Functions/Sort/Sort.cpp ./src/Functions/InputCheck/InputCheck.cpp

@@ -5,5 +5,5 @@
 
 
 
-vector<Service>  ReadFile1(string filename);
+vector<Service>  ReadFile(string filename);
 void SaveFile( string filename, vector<Service>& services);
